@@ -90,8 +90,8 @@ var race_table_data = {
 }
 
 var gender_table_data = {
-    "<53": "Female",
-    ">52": "Male",
+    "1-52": "Female",
+    "53-100": "Male",
 }
 
 export { 
