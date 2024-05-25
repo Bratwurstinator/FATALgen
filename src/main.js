@@ -1,7 +1,10 @@
-import { randInt } from "./rng.js";
+import { renderStats } from "./utils.js";
+import { mental_illness_table } from "./tables.js"
+import { Character } from "./character.js"
 
 window.onload = function() {
-    let p = document.createElement("p")
-    p.innerHTML = "abc"
-    document.body.appendChild(p)
+    let character = new Character()
+    renderStats(character)
+    console.log(character)
+    console.log(mental_illness_table.random())
 }
